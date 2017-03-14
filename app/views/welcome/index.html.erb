@@ -1,2 +1,27 @@
 <h2>Hello World</h2>
 <p>The time is now: <%= Time.now %></p>
+
+<h1 class="title">
+  <%= @article.headline %>
+</h1>
+
+<p id="notice"><%= notice %></p>
+
+<h2>
+  <strong><%= @article.headline %></strong>
+</h2>
+
+<p>
+  <%= @article.lead %>
+</p>
+
+<p class="date">
+  Submitted <%= time_ago_in_words(@article.created_at) %> ago
+</p>
+
+<p>
+  <%= @article.body %>
+</p>
+
+<%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
