@@ -1,17 +1,18 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Headline:</strong>
-  <%= @article.headline %>
-</p>
+<h2>
+  <strong><%= @article.headline %></strong>
+</h2>
 
 <p>
-  <strong>Lead:</strong>
   <%= @article.lead %>
 </p>
 
+<p class="date">
+  Submitted <%= time_ago_in_words(@article.created_at) %> ago
+</p>
+
 <p>
-  <strong>Body:</strong>
   <%= @article.body %>
 </p>
 
