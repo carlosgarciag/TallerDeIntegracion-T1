@@ -3,6 +3,7 @@
         <h1 class="title"><%= article.headline %></h1>
         <p><%= article.lead %></p>
         <p class="date"><%= article.created_at.strftime("%d %B %Y %-H:%M") %></p>
+        <p class="date"><%= article.comments.count %> Comentarios</p>
         <p><%= button_to "Read more", article, :method => "get" %></p>
     </div>
 <% end %>

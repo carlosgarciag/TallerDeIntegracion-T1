@@ -10,5 +10,13 @@
 <p style="font-size: 14px">
   <%= @article.body %>
 </p>
+<hr>
+<div id="comments">
+		<h2><%= @article.comments.count %> Comments</h2>
+		<%= render @article.comments %>
 
+		<h3>Add a comment:</h3>
+		<%= render "comments/form" %>
+</div>
+<hr>
 <p><%= button_to "Back", :back, :method => "get" %></p>
