@@ -1,9 +1,19 @@
 <% @articles.each do |article| %>
     <div class="post_wrapper">
         <h1 class="title"><%= article.headline %></h1>
-        <p><%= article.lead %></p>
-        <p class="date"><%= article.created_at.strftime("%d %B %Y %-H:%M") %></p>
-        <p class="date"><%= article.comments.count %> Comentarios</p>
+        <h3><%= article.lead %></h3>
+        <% if article.body.length()>1000 %>
+        <h4><%= truncate(article.body, length: 1003, omission: '...') %></h4>
+        <% else %>
+            <h4><%= article.body %></h4>
+        <% end %>
+        <h5 class="date"><%= article.created_at.strftime("%d %B %Y %-H:%M") %> * <%= article.comments.count %>
+            <% if article.comments.count==1 %>
+                 Comment
+            <% else %>
+                Comments
+            <% end%>
+        </h5>
         <p><%= button_to "Read more", article, :method => "get" %></p>
     </div>
 <% end %>

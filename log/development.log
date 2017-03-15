@@ -4816,3 +4816,98 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 148ms (Views: 131.6ms | ActiveRecord: 8.2ms)
 
 
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 22:02:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 262ms (Views: 245.2ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:02:54 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 76ms (Views: 70.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:04:35 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (40.6ms)
+Completed 200 OK in 323ms (Views: 298.1ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:05:45 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 301ms (Views: 282.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:07:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (40.0ms)
+Completed 200 OK in 315ms (Views: 294.6ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:08:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (45.8ms)
+Completed 200 OK in 361ms (Views: 340.8ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:11:54 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 321ms (Views: 299.0ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 22:17:07 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 10]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered articles/home.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 345ms (Views: 326.8ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 22:17:10 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  [1m[36mComment Load (0.5ms)[0m  [1m[34mSELECT "comments".* FROM "comments" WHERE "comments"."article_id" = $1[0m  [["article_id", 1]]
+  Rendered collection of comments/_comment.html.erb [1 times] (1.2ms)
+  Rendered comments/_form.html.erb (31.7ms)
+  Rendered articles/show.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 182ms (Views: 169.1ms | ActiveRecord: 7.0ms)
+
+

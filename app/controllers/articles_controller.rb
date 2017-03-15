@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
   end
 
   def home
-    @articles = Article.all.order('created_at DESC')
+    @articles = Article.all.order('created_at DESC').limit(10)
   end
 
   # GET /articles/1
