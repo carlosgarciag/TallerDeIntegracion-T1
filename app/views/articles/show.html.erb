@@ -1,19 +1,14 @@
-<p id="notice"><%= notice %></p>
+<div id="post_content">
+  <h1 class="title"><%= @article.headline %></h1>
 
-<h2>
-  <strong><%= @article.headline %></strong>
-</h2>
-
-<p>
-  <%= @article.lead %>
-</p>
+<h3>  <%= @article.lead %> </h3>
 
 <p class="date">
-  Submitted <%= time_ago_in_words(@article.created_at) %> ago
+  <strong style="font-size: 12px"> Submitted <%= time_ago_in_words(@article.created_at) %> ago </strong>
 </p>
 
-<p>
+<p style="font-size: 14px">
   <%= @article.body %>
 </p>
 
-<%= link_to 'Back', :back %>
+<p><%= button_to "Back", :back, :method => "get" %></p>

@@ -2849,3 +2849,1718 @@ Processing by ArticlesController#show as HTML
 Completed 200 OK in 43ms (Views: 36.8ms | ActiveRecord: 0.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:40:10 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 229ms (Views: 215.8ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/images/logo.svg" for 127.0.0.1 at 2017-03-14 19:40:10 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo.svg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.1) lib/puma/configuration.rb:224:in `call'
+puma (3.8.1) lib/puma/server.rb:590:in `handle_request'
+puma (3.8.1) lib/puma/server.rb:425:in `process_client'
+puma (3.8.1) lib/puma/server.rb:289:in `block in run'
+puma (3.8.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [17 times] (9.5ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.1ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (39.3ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:41:34 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 60ms (Views: 58.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/images/logo.svg" for 127.0.0.1 at 2017-03-14 19:41:34 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/logo.svg"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.1) lib/puma/configuration.rb:224:in `call'
+puma (3.8.1) lib/puma/server.rb:590:in `handle_request'
+puma (3.8.1) lib/puma/server.rb:425:in `process_client'
+puma (3.8.1) lib/puma/server.rb:289:in `block in run'
+puma (3.8.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered collection of /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [17 times] (13.8ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.3ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.1ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:45:13 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 383ms (Views: 367.2ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:50:31 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (19.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__4171078497170326859_47446396751860 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__4171078497170326859_47446396751860 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 561ms (Views: 544.0ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 19:50:50 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 50ms (Views: 47.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:50:52 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:54:10 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.4ms)
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 5.5ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "...ity Status Help": expected "{", was ""):
+    4:     <title>GreatNews</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.css.scss:269
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__697500871586834811_46928138239060'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.7ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:54:28 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (24.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___896521931432490484_47018804767440 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___896521931432490484_47018804767440 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 452ms (Views: 436.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:56:13 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___896521931432490484_70108780336500 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___896521931432490484_70108780336500 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 152ms (Views: 150.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:56:13 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:57:17 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:57:18 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:57:19 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:57:19 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:58:01 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 292ms (Views: 277.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:58:05 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 65ms (Views: 51.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:58:22 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-03-14 19:58:25 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 38ms (Views: 33.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:58:27 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:58:30 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:59:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (15.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2767911427963264659_47128469413980 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2767911427963264659_47128469413980 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 422ms (Views: 407.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:59:19 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:59:22 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 19:59:24 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:00:18 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2767911427963264659_70205770873140 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2767911427963264659_70205770873140 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 175ms (Views: 173.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:00:18 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:00:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 357ms (Views: 337.3ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:00:50 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:01:47 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 292ms (Views: 277.1ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:02:48 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2234180959039364798_46925868364860 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___2234180959039364798_46925868364860 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:7)
+Completed 200 OK in 363ms (Views: 349.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:04:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 287ms (Views: 270.6ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:05:05 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:06:14 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (17.4ms)
+Completed 500 Internal Server Error in 382ms (ActiveRecord: 3.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x0055e23d21f028>:0x0055e23d1d06d0>):
+    33:                 <%= link_to "Back to All Posts", root_path %>
+    34:                 <% end %>
+    35: 
+    36:                 <% if user_signed_in? %>
+    37:                 <div class="buttons">
+    38:                     <button class="button"><%= link_to "New Post", new_post_path %></button>
+    39:                     <button class="button">Log Out</button>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb___2996857697804899684_47215089086820'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.5ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:07:11 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 285ms (Views: 271.6ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:07:16 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 262ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x00564e802c93c0>:0x00564e802ecaa0>):
+    27:             <div id="header">
+    28:                 <% if current_page?(root_path) %>
+    29:                 <p>All Posts</p>
+    30:                 <% elsif current_page?(about_path) %>
+    31:                 <p>About</p>
+    32:             <% else %>
+    33:                 <%= link_to "Back to All Posts", root_path %>
+  
+app/views/layouts/application.html.erb:30:in `_app_views_layouts_application_html_erb__2463026401694760442_47447578525220'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:08:16 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:08:27 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:08:34 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:08:35 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:09:13 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:09:16 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 33ms (Views: 29.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:09:54 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:09:55 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:09:59 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 45ms (Views: 42.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:10:01 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:10:03 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-03-14 20:10:04 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 33ms (Views: 27.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:10:06 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/2/edit" for 127.0.0.1 at 2017-03-14 20:10:08 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (11.8ms)
+  Rendered articles/edit.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:10:11 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:11:56 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:12:03 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 284ms (Views: 268.5ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:12:06 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 58ms (Views: 54.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:12:07 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:12:08 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:13:31 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 294ms (Views: 275.4ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2017-03-14 20:13:33 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.1) lib/puma/configuration.rb:224:in `call'
+puma (3.8.1) lib/puma/server.rb:590:in `handle_request'
+puma (3.8.1) lib/puma/server.rb:425:in `process_client'
+puma (3.8.1) lib/puma/server.rb:289:in `block in run'
+puma (3.8.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered collection of /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [17 times] (12.6ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.8ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.7ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (63.4ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:13:35 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:14:10 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 224ms (Views: 210.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:14:14 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:14:42 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:18:44 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 277ms (Views: 262.5ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:19:28 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 276ms (Views: 259.9ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:23:20 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (20.7ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 4.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    3: <% @articles.each do |article| %>
+    4: <div class="post_wrapper">
+    5:     <h2 class="title"><%= article.headline %></h1>
+    6:     <p class="date"><%= article.lead("%d %B %Y %-H:%M") %></p>
+    7:     <p class="date"><%= article.created_at.strftime("%d %B %Y %-H:%M") %></p>
+    8:     <p><%= link_to 'Show', article %></p>
+    9:     <% end %>
+  
+app/views/articles/home.html.erb:6:in `block in _app_views_articles_home_html_erb___4127277429944255524_47043863315460'
+app/views/articles/home.html.erb:3:in `_app_views_articles_home_html_erb___4127277429944255524_47043863315460'
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/carlos/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.6ms)
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:23:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 292ms (Views: 279.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:24:20 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 230ms (Views: 216.0ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:24:49 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (2.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 64ms (Views: 59.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:25:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 262ms (Views: 247.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:26:04 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 65ms (Views: 60.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:28:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 293ms (Views: 278.8ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:28:26 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 75ms (Views: 67.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:28:41 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:28:46 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:28:47 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:29:00 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:30:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 445ms (Views: 417.1ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:31:03 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 90ms (Views: 86.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:31:08 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 79ms (Views: 72.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:32:16 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 305ms (Views: 281.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:33:12 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 56ms (Views: 53.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:34:37 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 295ms (Views: 279.7ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-03-14 20:35:34 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 73ms (Views: 64.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:35:49 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2017-03-14 20:35:51 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:35:56 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:35:57 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 29ms (Views: 27.4ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/articles/2" for 127.0.0.1 at 2017-03-14 20:36:01 -0300
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ajx6EguV4Ff9B/1zTufrR098qUsgI4YGqj+ff6Qxsc0K+lmS3sPpoQ9u+uqMDeHXrxvdEiMT7pnEhoY6aY3nXA==", "id"=>"2"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = $1[0m  [["id", 2]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 9ms (ActiveRecord: 5.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:36:01 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:37:04 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:37:08 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:37:10 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:37:11 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:40:04 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 276ms (Views: 261.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:43:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 169ms (Views: 156.1ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:44:15 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 32.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:44:18 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 51ms (Views: 49.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:44:20 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (10.6ms)
+  Rendered articles/edit.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-03-14 20:44:28 -0300
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oq4D/c43FLuUD6LC1xtsJEKz8r7mLTwGQ3+A1zRN/ZTCaCB9G2EdTWZmpVsV8Wa0otSG5+UdVJktxpmS+fGrBQ==", "article"=>{"headline"=>"Diputado Walker vincula renuncia de Gómez-Lobo con proyecto Dominga", "lead"=>"Según el parlamentario DC, el voto en contra del Seremi de Transportes posibilitó el rechazo de la iniciativa, pese a informe favorable de la cartera.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html", "body"=>"SANTIAGO.- El diputado y vicepresidente DC, Matías Walker, vinculó la renuncia del ex ministro de Transportes, Andrés Gómez-Lobo, con el rechazo del proyecto minero-portuario Dominga. Hace unos días, el parlamentario acusó la existencia de \"presiones políticas\" desde el Ministerio del Interior para que la votación fuese de esa manera. \"Investiguen\", fueron las palabras hoy del diputado Walker, según consignó Radio Bío Bío, agregando que \"eso lo tiene que aclarar el Gobierno\".\r\n\r\nEl diputado aseguró que \"yo insisto en todo lo que dije. Se le dijo por parte del intendente a los seremis, que habían órdenes desde arriba, del Ministerio del Interior, de cambiar su votación\". Así, indicó que \"el seremi de Transportes, al momento de fundamentar su voto, dijo que él votaba en contra porque este proyecto lo iba a calificar el Consejo de Ministros, no obstante el Ministerio de Transporte ya había enviado un informe favorable al SEIA (Sistema de Evaluación de Impacto Ambiental)\". Además, el diputado Walker dijo ser partidario de la comisión investigadora que se aprobó hoy sobre la Minera Dominga y los vínculos con el ex Presidente Sebastián Piñera. Pero también de la cual impulsaría la oposición sobre supuestas \"presiones\" en el rechazo del proyecto.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "articles" SET "body" = $1, "updated_at" = $2 WHERE "articles"."id" = $3[0m  [["body", "SANTIAGO.- El diputado y vicepresidente DC, Matías Walker, vinculó la renuncia del ex ministro de Transportes, Andrés Gómez-Lobo, con el rechazo del proyecto minero-portuario Dominga. Hace unos días, el parlamentario acusó la existencia de \"presiones políticas\" desde el Ministerio del Interior para que la votación fuese de esa manera. \"Investiguen\", fueron las palabras hoy del diputado Walker, según consignó Radio Bío Bío, agregando que \"eso lo tiene que aclarar el Gobierno\".\r\n\r\nEl diputado aseguró que \"yo insisto en todo lo que dije. Se le dijo por parte del intendente a los seremis, que habían órdenes desde arriba, del Ministerio del Interior, de cambiar su votación\". Así, indicó que \"el seremi de Transportes, al momento de fundamentar su voto, dijo que él votaba en contra porque este proyecto lo iba a calificar el Consejo de Ministros, no obstante el Ministerio de Transporte ya había enviado un informe favorable al SEIA (Sistema de Evaluación de Impacto Ambiental)\". Además, el diputado Walker dijo ser partidario de la comisión investigadora que se aprobó hoy sobre la Minera Dominga y los vínculos con el ex Presidente Sebastián Piñera. Pero también de la cual impulsaría la oposición sobre supuestas \"presiones\" en el rechazo del proyecto.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html"], ["updated_at", 2017-03-14 23:44:28 UTC], ["id", 1]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 9ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:44:28 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:44:34 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.5ms)
+  Rendered articles/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.6ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-03-14 20:44:41 -0300
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8q0hHwHXmiBm45gJNLzgkj02hhWjm+cVBjhwSsZHnBidE57L9iqbTWSimnTJ1ouwej69yzLet7aXXojrXmlGHQ==", "article"=>{"headline"=>"Diputado Walker vincula renuncia de Gómez-Lobo con proyecto Dominga", "lead"=>"Según el parlamentario DC, el voto en contra del Seremi de Transportes posibilitó el rechazo de la iniciativa, pese a informe favorable de la cartera.  Fuente: Emol.com", "body"=>"SANTIAGO.- El diputado y vicepresidente DC, Matías Walker, vinculó la renuncia del ex ministro de Transportes, Andrés Gómez-Lobo, con el rechazo del proyecto minero-portuario Dominga. Hace unos días, el parlamentario acusó la existencia de \"presiones políticas\" desde el Ministerio del Interior para que la votación fuese de esa manera. \"Investiguen\", fueron las palabras hoy del diputado Walker, según consignó Radio Bío Bío, agregando que \"eso lo tiene que aclarar el Gobierno\".\r\n\r\nEl diputado aseguró que \"yo insisto en todo lo que dije. Se le dijo por parte del intendente a los seremis, que habían órdenes desde arriba, del Ministerio del Interior, de cambiar su votación\". Así, indicó que \"el seremi de Transportes, al momento de fundamentar su voto, dijo que él votaba en contra porque este proyecto lo iba a calificar el Consejo de Ministros, no obstante el Ministerio de Transporte ya había enviado un informe favorable al SEIA (Sistema de Evaluación de Impacto Ambiental)\". Además, el diputado Walker dijo ser partidario de la comisión investigadora que se aprobó hoy sobre la Minera Dominga y los vínculos con el ex Presidente Sebastián Piñera. Pero también de la cual impulsaría la oposición sobre supuestas \"presiones\" en el rechazo del proyecto.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "articles" SET "lead" = $1, "updated_at" = $2 WHERE "articles"."id" = $3[0m  [["lead", "Según el parlamentario DC, el voto en contra del Seremi de Transportes posibilitó el rechazo de la iniciativa, pese a informe favorable de la cartera.  Fuente: Emol.com"], ["updated_at", 2017-03-14 23:44:41 UTC], ["id", 1]]
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 12ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:44:41 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:44:48 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (6.1ms)
+  Rendered articles/edit.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 54ms (Views: 50.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:47:41 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.2ms)
+  Rendered articles/edit.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 306ms (Views: 278.9ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:47:55 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.9ms)
+  Rendered articles/edit.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 83ms (Views: 79.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:48:50 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.4ms)
+  Rendered articles/edit.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 304ms (Views: 280.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:50:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.6ms)
+  Rendered articles/edit.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 294ms (Views: 270.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:51:40 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (19.2ms)
+  Rendered articles/edit.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 304ms (Views: 275.8ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:51:54 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (19.6ms)
+  Rendered articles/edit.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 302ms (Views: 274.6ms | ActiveRecord: 3.3ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-03-14 20:52:23 -0300
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FGD10lKrWDW5DyJ7lcowNln0/syObw5KyOQ2gspaCwx0ptZSh/1Rw0tmJeJXIDqmuZOKlY1fZtWmXS/HB+ZdnQ==", "article"=>{"headline"=>"Diputado Walker vincula renuncia de Gómez-Lobo con proyecto Dominga", "lead"=>"Según el parlamentario DC, el voto en contra del Seremi de Transportes posibilitó el rechazo de la iniciativa, pese a informe favorable de la cartera.  Fuente: Emol.com", "body"=>"SANTIAGO.- El diputado y vicepresidente DC, Matías Walker, vinculó la renuncia del ex ministro de Transportes, Andrés Gómez-Lobo, con el rechazo del proyecto minero-portuario Dominga. Hace unos días, el parlamentario acusó la existencia de \"presiones políticas\" desde el Ministerio del Interior para que la votación fuese de esa manera. \"Investiguen\", fueron las palabras hoy del diputado Walker, según consignó Radio Bío Bío, agregando que \"eso lo tiene que aclarar el Gobierno\".\r\n\r\nEl diputado aseguró que \"yo insisto en todo lo que dije. Se le dijo por parte del intendente a los seremis, que habían órdenes desde arriba, del Ministerio del Interior, de cambiar su votación\". Así, indicó que \"el seremi de Transportes, al momento de fundamentar su voto, dijo que él votaba en contra porque este proyecto lo iba a calificar el Consejo de Ministros, no obstante el Ministerio de Transporte ya había enviado un informe favorable al SEIA (Sistema de Evaluación de Impacto Ambiental)\". Además, el diputado Walker dijo ser partidario de la comisión investigadora que se aprobó hoy sobre la Minera Dominga y los vínculos con el ex Presidente Sebastián Piñera. Pero también de la cual impulsaría la oposición sobre supuestas \"presiones\" en el rechazo del proyecto.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 9ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:52:23 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 69ms (Views: 65.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:52:26 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (4.8ms)
+  Rendered articles/edit.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/articles/1" for 127.0.0.1 at 2017-03-14 20:52:28 -0300
+Processing by ArticlesController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v0iPgOfQhdTOmNOy4gs8wWTJXn4RhOf0lnO2M7wHmWPfjqwAMoaMIjzx1Csg4TZRhK4qJxK0j2v4yq92cbvP8g==", "article"=>{"headline"=>"Diputado Walker vincula renuncia de Gómez-Lobo con proyecto Dominga", "lead"=>"Según el parlamentario DC, el voto en contra del Seremi de Transportes posibilitó el rechazo de la iniciativa, pese a informe favorable de la cartera.  Fuente: Emol.com", "body"=>"SANTIAGO.- El diputado y vicepresidente DC, Matías Walker, vinculó la renuncia del ex ministro de Transportes, Andrés Gómez-Lobo, con el rechazo del proyecto minero-portuario Dominga. Hace unos días, el parlamentario acusó la existencia de \"presiones políticas\" desde el Ministerio del Interior para que la votación fuese de esa manera. \"Investiguen\", fueron las palabras hoy del diputado Walker, según consignó Radio Bío Bío, agregando que \"eso lo tiene que aclarar el Gobierno\".\r\n\r\nEl diputado aseguró que \"yo insisto en todo lo que dije. Se le dijo por parte del intendente a los seremis, que habían órdenes desde arriba, del Ministerio del Interior, de cambiar su votación\". Así, indicó que \"el seremi de Transportes, al momento de fundamentar su voto, dijo que él votaba en contra porque este proyecto lo iba a calificar el Consejo de Ministros, no obstante el Ministerio de Transporte ya había enviado un informe favorable al SEIA (Sistema de Evaluación de Impacto Ambiental)\". Además, el diputado Walker dijo ser partidario de la comisión investigadora que se aprobó hoy sobre la Minera Dominga y los vínculos con el ex Presidente Sebastián Piñera. Pero también de la cual impulsaría la oposición sobre supuestas \"presiones\" en el rechazo del proyecto.  Fuente: Emol.com - http://www.emol.com/noticias/Nacional/2017/03/14/849419/Diputado-Walker-vincula-renuncia-de-GomezLobo-con-proyecto-Dominga.html"}, "commit"=>"Update Article", "id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 4ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:52:28 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:52:33 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.3ms)
+  Rendered articles/edit.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:52:38 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 20:52:43 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:52:45 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 20:52:46 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.2ms)
+  Rendered articles/edit.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 32ms (Views: 28.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:52:48 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 25ms (Views: 23.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:53:39 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 282ms (Views: 264.5ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:55:15 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (18.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__284850441678057668_47380007199680 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__284850441678057668_47380007199680 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 376ms (Views: 360.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 20:55:59 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (17.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___556023911294531066_47358049240700 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___556023911294531066_47358049240700 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 375ms (Views: 361.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:56:19 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 59ms (Views: 55.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 20:57:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 282ms (Views: 266.7ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:00:16 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 297ms (Views: 281.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:01:14 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 281ms (Views: 265.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:01:18 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:01:20 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:01:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 282ms (Views: 263.4ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:01:57 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:02:06 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 44.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-03-14 21:02:08 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (27.0ms)
+  Rendered articles/new.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:02:45 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-03-14 21:02:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (17.6ms)
+  Rendered articles/new.html.erb within layouts/application (19.9ms)
+Completed 200 OK in 278ms (Views: 259.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:02:59 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:03:07 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 63ms (Views: 60.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:03:49 -0300
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:03:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (16.8ms)
+  Rendered articles/home.html.erb within layouts/application (64.2ms)
+Completed 200 OK in 514ms (Views: 505.6ms | ActiveRecord: 4.1ms)
+
+
+Completed 200 OK in 525ms (Views: 446.1ms | ActiveRecord: 61.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 21:03:52 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 34ms (Views: 27.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:03:55 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.2ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 36ms (Views: 32.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:03:57 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 21:03:58 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 21:04:01 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (9.5ms)
+  Rendered articles/edit.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:04:03 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2017-03-14 21:04:13 -0300
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (3.8ms)
+  Rendered articles/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:04:15 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 21:04:17 -0300
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (2.7ms)
+  Rendered articles/edit.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles/1/edit" for 127.0.0.1 at 2017-03-14 21:04:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/edit.html.erb within layouts/application
+  Rendered articles/_form.html.erb (18.1ms)
+  Rendered articles/edit.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 304ms (Views: 277.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:05:24 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (3.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 69ms (Views: 63.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 21:05:25 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:05:27 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:12:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (19.5ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__910384383597357584_47057289150400 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__910384383597357584_47057289150400 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 402ms (Views: 384.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:13:48 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (23.6ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__1307484485987481380_47230511027540 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__1307484485987481380_47230511027540 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 463ms (Views: 444.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:13:53 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:13:56 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:15:07 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 283ms (Views: 265.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:16:47 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__815442015574910602_47357027493520 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__815442015574910602_47357027493520 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 377ms (Views: 359.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:17:00 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 296ms (Views: 279.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:17:33 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (17.0ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___1068670153819915768_47436472225600 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb___1068670153819915768_47436472225600 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 393ms (Views: 375.7ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:18:30 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (15.1ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__4355333384277836363_46947797594220 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.css.scss to /home/carlos/TallerDeIntegracion-T1/app/assets/stylesheets/_normalize.scss. (called from _app_views_layouts_application_html_erb__4355333384277836363_46947797594220 at /home/carlos/TallerDeIntegracion-T1/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 374ms (Views: 357.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 21:18:39 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 63ms (Views: 54.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:18:41 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:18:46 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:23:46 -0300
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:23:46 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#home as HTML
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (1.6ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  [1m[36mArticle Load (2.8ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (21.5ms)
+  Rendered articles/home.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 779ms (Views: 752.0ms | ActiveRecord: 20.0ms)
+
+
+Completed 200 OK in 805ms (Views: 771.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:23:53 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:23:55 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 72ms (Views: 68.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2017-03-14 21:23:56 -0300
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (0.2ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 41ms (Views: 35.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:23:58 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:23:59 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2017-03-14 21:24:02 -0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-03-14 21:24:03 -0300
+Processing by ArticlesController#home as HTML
+  Rendering articles/home.html.erb within layouts/application
+  [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT "articles".* FROM "articles" ORDER BY created_at DESC[0m
+  Rendered articles/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.3ms)
+
+
